@@ -1,0 +1,58 @@
+.shout_box{
+    background: #fff;
+    /*#627BAE;*/
+    width: 260px; overflow: hidden; position: fixed;bottom: 0; right: 0; z-index: 9;
+  }
+  .shout_box .header .close_btn{
+    background: rgba(0, 39, 121, .76) no-repeat 0px 0px; float: right;width: 15px;
+  }
+  .shout_box .header .close_btn:hover{
+    background: rgba(0, 39, 121, .76) no-repeat 0px -16px;
+  }
+  .shout_box .header .open_btn{
+    background: rgba(0, 39, 121, .76) no-repeat 0px -32px;
+  }
+  .shout_box .header .open_btn:hover{
+    background: rgba(0, 39, 121, .76) no-repeat 0px -410px;
+  }
+  .shout_box .header{
+    padding: 5px 3px 5px 5px;
+    font: 10px 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-weight: bold; color: #fff;
+    border: 1px solid rgba(0, 39, 121, .76);
+    border-bottom: none;cursor: pointer;
+    background-color: #627BAE;
+  }
+  .shout_box .header:hover{
+    background-color: #627BAE;
+  }
+  .shout_box .message_box{
+    background: #FFFFFF; height: 200px;
+    overflow: auto;border: 1px solid #CCC;
+  }
+  .shout_msg{
+    margin-bottom: 10px; display: block;
+    border-bottom: 1px solid #F3F3F3; padding: 0px 5px 5px 5px;
+    font: 10px 'lucida grande', tahoma, verdana, arial, sans-serif; color: #7C7C7C;
+  }
+  .message_box:last-child{border-bottom: none;
+  }
+  time{
+    font: 10px 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-weight: normal;float: right;color: #D5D5D5;
+  }
+  .shout_msg .username{
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .user_info input{
+    width: 100%; height: 25px; 
+    border: 1px solid #CCC; border-top: none;
+    font: 10px 'lucida grande', tahoma, verdana, arial, sans-serif;
+    position: absolute;top: 0;left: 0;margin-top: 22px;
+  }
+
+  .shout_msg .username{
+    position: absolute; bottom: 0; right: 0; font-weight: bold;display: block;
+  }
